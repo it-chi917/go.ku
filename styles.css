@@ -35,7 +35,7 @@ main {
 
 section {
     margin-bottom: 40px;
-    background: #fff;
+    background-image: linear-gradient(to bottom, rgb(0, 94, 255), rgb(0, 255, 179));
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
