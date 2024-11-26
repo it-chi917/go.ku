@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALSAHIFA</title>
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="styles\styles.css">
+    <link rel="icon" href="images/images.jpg">
+</head>
+<body style="background-image: url('images/SU.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <!-- Ensure your image path is correct and accessible. -->
+                <img src="images/sf-logo.png" style="height: 75px; width: 100px;" />
+            </div>
+            <div class="logo-text">
+                <h1>AL SAHIFA </h1>
+            </div>
+        </div>
+        <div class="header-container">
+            <!-- Navigation links to other pages -->
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="international.html">International</a>
+                <a href="national.html">National</a>
+                <a href="sports.html">Sports</a>
+                <a href="tech.html">Tech</a>
+                <a href="climate.html">Climate</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+
+        <h1>Contact Us</h1>
+    </header>
+
+    
+    <!-- Main Content Section -->
+    <main>
+        <div class="container">
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <div>
+                    <h3>Our Office</h3>
+                    <p>Otab<br>Sohar, North Batinah, 315</p>
+                </div>
+                <div>
+                    <h3>Phone</h3>
+                    <p>+968 98765432</p>
+                </div>
+                <div>
+                    <h3>Email</h3>
+                    <p>info@su.edu.om</p>
+                </div>
+            </div>
+    
+            <!-- Contact Form -->
+            <div class="form-container">
+                <h2>Get In Touch</h2>
+                <form action="/submit-form" method="POST">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+                   
+    
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+            <br/>
+            <br/>
+    
+            <!-- Google Map Embed -->
+            <div class="map">
+                <h2>Our Location</h2>
+                <!-- Embed a Google Map iframe -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3636.3952309049746!2d56.77769607441021!3d24.297845367541328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e8b5db438ddf551%3A0xd89c95a6207357b1!2sSohar%20University!5e0!3m2!1sen!2som!4v1731917471669!5m2!1sen!2som" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    
+        </header>
+    
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Multi-Media Students News Portal - All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
